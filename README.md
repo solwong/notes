@@ -1,2 +1,2 @@
 # notes
-My notes for learning and working，which are in the form of GitHub Issue.
+My notes for learning or others，in the form of GitHub Issue.
