@@ -7,7 +7,47 @@
 * 重构之前要编写测试，集中测试容易出错的代码。
 
 # Linux process
-* `sudo lsof -i:$PORTNO`: look a port
-* `ps aux | grep $name`: look a process
+* `sudo lsof -i:$PORTNO`: look up a port status
+* `ps aux | grep $name`: look up a process status
 * `pkill -15 -f $name`: kill a process by name
 * `kill -15 $pid`: kill a process by pid
+
+# Gems related
+`guard`: auto test
+`spring`: speed the test
+`bootstrap-sass`: beauty the app
+
+# Troubleshooting
+* `error for some template cannot be found`: ensure your server is restart after bundle install
+
+# Works flow
+1. `git checkout -b $branch`
+2. do sth.
+3. `git commit`
+4. `git checkout master`
+5. `git merge`
+6. `git push github master`
+7. `git push heroku master`
+8. `git run db:migrate`
+
+# Debug
+## Console
+```ruby
+def show
+  debugger
+end
+```
+
+## Web pages
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <%= debug(params) if Rails.env.development? %>
+  </body>
+</html>
+```
