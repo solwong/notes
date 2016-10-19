@@ -51,3 +51,10 @@ end
   </body>
 </html>
 ```
+
+# Security
+## Got your cookie
+1. 使用包嗅探工具截获不安全网络中传输的 cookie；
+2. 获取包含记忆令牌的数据库；
+3. 使用跨站脚本（Cross-Site Scripting，简称 XSS）攻击；
+4. 获取已登录用户的设备访问权。
