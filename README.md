@@ -1,14 +1,41 @@
-# notes
-My notes for learning or others，in the form of GitHub Issue.
+# About Notes
+This is my notes for learning or others.
+
+If any question, don't hesitate to **[take an issue]**, let's have a talk together!
+
+# Comments and topics
+You can see the comments and topics in [GitHub Issue].
 
 # List
-## Tool notes
-* [Tool notes - Atom](https://github.com/pinewong/notes/issues/2)
-* [Tool notes - GitHub](https://github.com/pinewong/notes/issues/3)
-* [Tool notes - Docker](https://github.com/pinewong/notes/issues/6)
+## Tools
+* [Atom]
+* [GitHub]
+* [Docker]
+* [Linux]
 
-## Book notes
-* [Book notes - Railstutorial](https://github.com/pinewong/notes/issues/4)
+## Books
+* [Railstutorial]
 
-## Other notes
-* [Pits of setup and deploy for your project](https://github.com/pinewong/notes/issues/1)
+## Summaries
+* [Pits of deploy]
+
+# Others
+* [Summary from 2015.09 to 2016.06]
+
+
+
+
+
+[take an issue]: https://github.com/pinewong/notes/issues/new
+[GitHub Issue]: https://github.com/pinewong/notes/issues
+
+[Atom]: https://github.com/pinewong/notes/blob/master/tools/atom.md
+[GitHub]: https://github.com/pinewong/tools/blob/master/tools/atom.md
+[Docker]: https://github.com/pinewong/tools/blob/master/tools/docker.md
+[Linux]: https://github.com/pinewong/tools/blob/master/tools/linux.md
+
+[Railstutorial]: https://github.com/pinewong/tools/blob/master/books/railstutorial.md
+
+[Pits of deploy]: https://github.com/pinewong/tools/blob/master/books/pits-of-deploy.md
+
+[Summary from 2015.09 to 2016.06]: https://github.com/pinewong/tools/blob/master/books/summary-from-2015.09-to-2016.06.md

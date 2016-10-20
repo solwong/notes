@@ -3,7 +3,22 @@
 docker attach $containerName
 docker port $containerName
 docker run -it
+
+# Stop all container
+docker stop $(docker ps -q)
+# Remove all container
+docker rm $(docker ps -aq)
 ```
+
+# Docker Compose
+```shell
+# Edit the docker-compose.yml file
+docker-compose build
+docker-compose up
+```
+
+# Key-map
+* `CTR + P, CTR + Q`: Change but not exit
 
 # Client and Server
 ## Server
