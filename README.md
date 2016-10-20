@@ -19,7 +19,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 ## Summaries
 * [Pits of deploy]
 
-# Others
+## Others
 * [Summary from 2015.09 to 2016.06]
 
 
