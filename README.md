@@ -24,8 +24,8 @@ You can see the comments and topics in **[GitHub Issue]**.
 ### Summaries
 
 * [Pits of deploy]
-* [setup-by-docker]
-* [doker-and-continuous-integration]
+* [Setup by Docker]
+* [Doker and Continuous Integration]
 
 ### Others
 
