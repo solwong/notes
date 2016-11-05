@@ -13,7 +13,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 ### Summaries
 
 * [Pits of deploy]
-* [Doker and Continuous Integration]
+* [Doker-Continuous Integration]
 
 ### Books
 
