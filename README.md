@@ -10,22 +10,21 @@ You can see the comments and topics in **[GitHub Issue]**.
 
 ## List
 
+### Summaries
+
+* [Pits of deploy]
+* [Doker and Continuous Integration]
+
+### Books
+
+* [Railstutorial]
+
 ### Tools
 
 * [Atom]
 * [GitHub]
 * [Docker]
 * [Linux]
-
-### Books
-
-* [Railstutorial]
-
-### Summaries
-
-* [Pits of deploy]
-* [Setup by Docker]
-* [Doker and Continuous Integration]
 
 ### Others
 
@@ -46,6 +45,6 @@ You can see the comments and topics in **[GitHub Issue]**.
 [Railstutorial]: https://github.com/pinewong/notes/blob/master/books/railstutorial.md
 
 [Pits of deploy]: https://github.com/pinewong/notes/blob/master/summaries/pits-of-deploy.md
-[Summary from 2015.09 to 2016.06]: https://github.com/pinewong/notes/blob/master/summaries/summary-from-2015.09-to-2016.06.md
+[Summary from 2015.09 to 2016.06]: https://github.com/pinewong/notes/blob/master/others/summary-from-2015.09-to-2016.06.md
 [Setup by Docker]: https://github.com/pinewong/notes/blob/master/summaries/setup-by-docker.md
 [Doker and Continuous Integration]: https://github.com/pinewong/notes/blob/master/summaries/doker-and-continuous-integration.md
