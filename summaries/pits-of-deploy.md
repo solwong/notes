@@ -1,5 +1,11 @@
 ## MySQL
 
+### Change the root password
+
+```shell
+/path/mysqladmin -u UserName -h Host password 'new_password' -p
+```
+
 ### Install MySQL5.7 on Ubuntu 16.04 LTS
 
 when use apt-get repo to install, if you are not reply a password for root account in the process, then while install complete, you must use `sudo mysql -u root` to get into mysql. The solution is remove mysql totally.
