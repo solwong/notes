@@ -19,8 +19,11 @@ nohup $threadName &
 ### Keep multiple screen
 
 ```shell
-screen -S $newScreen
-screen -r $newScreen
+screen -S $newScreen      # Open a new screen
+Control-A D               # Datach the screen
+screen ls                 # List all screen
+screen -r $screenPid      # Change to the screen
+Control-D                 # Delete a screen
 screen --wipe $newScreen
 ```
 

@@ -26,6 +26,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 * [GitHub]
 * [Docker]
 * [Linux]
+* [MySQL]
 
 ### Others
 
@@ -40,6 +41,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 [GitHub]: https://github.com/pinewong/notes/blob/master/tools/github.md
 [Docker]: https://github.com/pinewong/notes/blob/master/tools/docker.md
 [Linux]: https://github.com/pinewong/notes/blob/master/tools/linux.md
+[MySQL]: https://github.com/pinewong/notes/blob/master/tools/mysql.md
 
 [Railstutorial]: https://github.com/pinewong/notes/blob/master/books/railstutorial.md
 
