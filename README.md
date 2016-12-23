@@ -12,6 +12,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 
 ### Summaries
 
+* [Proxy in CentOS7](https://github.com/pinewong/notes/blob/master/summaries/proxy-in-centos7.md)
 * [Pits of deploy]
 * [Doker-Continuous Integration]
 
