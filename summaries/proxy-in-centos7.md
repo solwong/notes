@@ -13,11 +13,8 @@ sudo pip install shadowsocks
 
 ```
 sudo vi /etc/shadowsocks.json
-```
 
 # Something like this
-
-```
 {
     "server":"服务器地址",
     "server_port":服务器端口号,
