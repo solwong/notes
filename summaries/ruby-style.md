@@ -1,6 +1,8 @@
 # Ruby style
 
-## Align function parameters either all on the same line or one per line
+## Common
+
+- Align function parameters either all on the same line or one per line
 
 ```ruby
 # bad
@@ -34,7 +36,7 @@ def self.create_translation(
 end
 ```
 
-## Do not use default arguments. Use an options hash instead
+- Do not use default arguments. Use an options hash instead
  
 ```ruby
 # bad
@@ -55,7 +57,7 @@ def obliterate(things, options = {})
 end
 ```
 
-## Avoid class << self except when necessary, e.g. single accessors and aliased attributes
+- Avoid class << self except when necessary, e.g. single accessors and aliased attributes
 
 ```ruby
 class TestClass
@@ -86,7 +88,7 @@ class TestClass
 end
 ```
 
-## Indent the public, protected, and private methods as much the method definitions they apply to. Leave one blank line above and below them
+- Indent the public, protected, and private methods as much the method definitions they apply to. Leave one blank line above and below them
 
 ```ruby
 class SomeClass
@@ -102,7 +104,7 @@ class SomeClass
 end
 ```
 
-## Don't use exceptions for flow of control
+- Don't use exceptions for flow of control
 
 ```ruby
 # bad
@@ -120,7 +122,7 @@ else
 end
 ```
 
-## Avoid rescuing the Exception class
+- Avoid rescuing the Exception class
 
 ```ruby
 # bad
@@ -145,7 +147,7 @@ rescue
 end
 ```
 
-## Don't specify RuntimeError explicitly in the two argument version of raise. Prefer error sub-classes for clarity and explicit error creation
+- Don't specify RuntimeError explicitly in the two argument version of raise. Prefer error sub-classes for clarity and explicit error creation
 
 ```ruby
 # bad
@@ -159,7 +161,7 @@ class MyExplicitError < RuntimeError; end
 raise MyExplicitError
 ```
 
-## Collections
+- Collections
 
 - Prefer map over collect.
 
@@ -169,7 +171,7 @@ raise MyExplicitError
 
 - Prefer size over either length or count for performance reasons
 
-## Be careful with ^ and $ as they match start/end of line, not string endings. If you want to match the whole string use: \A and \z
+- Be careful with ^ and $ as they match start/end of line, not string endings. If you want to match the whole string use: \A and \z
 
 ```ruby
 string = "some injection\nusername"
@@ -177,7 +179,7 @@ string[/^username$/]   # matches
 string[/\Ausername\z/] # don't match
 ```
 
-## Use x modifier for complex regexps. This makes them more readable and you can add some useful comments. Just be careful as spaces are ignored
+- Use x modifier for complex regexps. This makes them more readable and you can add some useful comments. Just be careful as spaces are ignored
 
 ```ruby
 regexp = %r{
@@ -189,7 +191,7 @@ regexp = %r{
 }x
 ```
 
-## Prefer parentheses over curly braces, brackets, or pipes when using %-literal delimiters for consistency, and because the behavior of %-literals is closer to method calls than the alternatives
+- Prefer parentheses over curly braces, brackets, or pipes when using %-literal delimiters for consistency, and because the behavior of %-literals is closer to method calls than the alternatives
 
 ```ruby
 # bad
@@ -203,7 +205,7 @@ regexp = %r{
 
 ## Percent Literals
 
-### Prefer parentheses over curly braces, brackets, or pipes when using %-literal delimiters for consistency, and because the behavior of %-literals is closer to method calls than the alternatives
+- Prefer parentheses over curly braces, brackets, or pipes when using %-literal delimiters for consistency, and because the behavior of %-literals is closer to method calls than the alternatives
 
 ```ruby
 # bad
@@ -215,7 +217,7 @@ regexp = %r{
 %w(date locale)
 ```
 
-### Use %() for single-line strings which require both interpolation and embedded double-quotes. For multi-line strings, prefer heredocs
+- Use %() for single-line strings which require both interpolation and embedded double-quotes. For multi-line strings, prefer heredocs
 
 ```ruby
 # bad - no interpolation needed
@@ -259,7 +261,7 @@ echo = %x(echo `date`)
 
 ## Rails
 
-### When immediately returning after calling render or redirect_to, put return on the next line, not the same line
+- When immediately returning after calling render or redirect_to, put return on the next line, not the same line
 
 ```ruby
 # bad
