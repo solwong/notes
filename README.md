@@ -12,6 +12,7 @@ You can see the comments and topics in **[GitHub Issue]**.
 
 ### Summaries
 
+- [Exception handling Style](https://github.com/pinewong/notes/blob/master/summaries/exception-handling-style.md)
 - [Ruby Style](https://github.com/pinewong/notes/blob/master/summaries/ruby-style.md)
 - [Proxy in CentOS7](https://github.com/pinewong/notes/blob/master/summaries/proxy-in-centos7.md)
 - [Pits of deploy]
